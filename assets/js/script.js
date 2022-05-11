@@ -2,6 +2,40 @@
 // CAPTURE ALL HTML NECESSARY HTML ELEMENTS
 
 // ARRAY OF KITTEN IMAGES/TEXT
+var kittenArr = [
+    {
+        url: 'http://placekitten.com/200/200',
+        desc: "kitten time!"
+    },
+    {
+        url: 'http://placekitten.com/210/200',
+        desc: "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️"
+    },
+    {
+        url: 'http://placekitten.com/190/200',
+        desc: "lookit those eyez!!!!"
+    },
+    {
+        url: 'http://placekitten.com/215/200',
+        desc: "whatta cuteeee"
+    },
+    {
+        url: 'http://placekitten.com/236/200',
+        desc: "wanna pet it"
+    },
+    {
+        url: 'http://placekitten.com/148/200',
+        desc: "claws for scratchin"
+    },
+    {
+        url: 'http://placekitten.com/97/200',
+        desc: "this one is kinda funny lookin'"
+    },
+    {
+        url: 'http://placekitten.com/125/200',
+        desc: "whoa, man. too cute."
+    },
+]
 
 // CAPTURE LOCALSTORAGE HIGHSCORE DATA
 
