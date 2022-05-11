@@ -36,8 +36,7 @@ var kittenArr = [
         desc: "whoa, man. too cute."
     },
 ]
-
-// CAPTURE LOCALSTORAGE HIGHSCORE DATA
+// GAME LOGIC VARIABLES (TIMER, INDEX #)
 
 
 // TODO: INITIALIZE PAGE (HIDING/SHOWING BUTTONS, ETC)
@@ -53,6 +52,7 @@ var kittenArr = [
 
     // GAME BTN:
         // LOOP THROUGH KITTEN ARRAY ON CLICK
+        // RENDERKITTEN ON CLICK
         // COUNT CLICKS
 
 // TODO: GAME FUNCTIONALITY
@@ -73,3 +73,6 @@ var kittenArr = [
         // CLEAR OUT CURRENT HIGHSCORE FIELD
         // LOOP THROUGH ARRAY OF SCORE OBJECTS
         // RENDER NEW LI FOR EACH SCORE OBJ
+    // RENDER KITTEN:
+        // UPDATE SRC OF IMAGE
+        // UPDATE DESC TEXT
