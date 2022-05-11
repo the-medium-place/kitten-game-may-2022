@@ -15,13 +15,40 @@
 </head>
 
 <body>
-    <!-- SECTION FOR IMAGE / TEXT -->
+    <h1 class="text-center w-auto py-4 bg-dark text-light">Kitten Clickin'!!!</h1>
+    <div class="container">
 
-    <!-- SECTION FOR BUTTONS -->
+        <!-- SECTION FOR IMAGE / TEXT / TIMER-->
+        <section class="d-flex justify-content-center pt-6 flex-column align-items-center">
 
-    <!-- SECTION FOR HIGH SCORES LIST -->
+            <figure class="figure">
+                <img class="figure-img img-fluid rounded" id="kitten-image" alt="...">
+                <figcaption class="figure-caption" id="kitten-desc"></figcaption>
+            </figure>
 
+            <h3 id="game-timer">Time Left: </h3>
 
+        </section>
+
+        <!-- SECTION FOR BUTTONS -->
+        <section class="d-flex justify-content-center pt-6 bg-secondary text-light  flex-column align-items-center">
+            <button class="btn btn-lg btn-primary" id="start-btn">Start Game!</button>
+            <button class="btn btn-lg btn-success" id="game-btn">CLICK ME!</button>
+        </section>
+
+        <!-- SECTION FOR HIGH SCORES LIST -->
+        <section class="d-flex justify-content-center pt-6 bg-secondary text-light  flex-column align-items-center">
+            <h3 class="text-center">High Scores:</h3>
+            <ul class="list-group list-group-flush" id="highscores">
+                <!-- <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">A fourth item</li>
+                <li class="list-group-item">And a fifth one</li> -->
+            </ul>
+        </section>
+
+    </div>
     <!-- JQUERY CDN IMPORT -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
